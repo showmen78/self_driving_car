@@ -38,15 +38,15 @@ let car  = new Car(80,center)
 
 
 
-// setInterval(() => {
+setInterval(() => {
 
-//     car.rotate()
-//   //  updateRoad()
-//     moveRoads(car.speed)
-//     road.rotate(time)
-//     time += .009
+    car.rotate()
+  //  updateRoad()
+    moveRoads(car.speed)
+    road.rotate(time)
+    time += .009
 
-// }, 50);
+}, 50);
 
 
 
