@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(41, 39, 39);
+    overflow: hidden;
+}
+#screen{
+    width: 100vw;
+    height: 100vh;
+
+  
+}
+
+#road{
+    width: 500%;
+    height: 50000vh;
+    background-image: url('./road2.png');
+    background-position-x: center;
+    background-repeat: repeat;
+    position: absolute;
+    z-index: 1;
+    left: 250px;
+    bottom: 0;
+    
+}
+
